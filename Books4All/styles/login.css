@@ -1,0 +1,71 @@
+/* General */
+
+#wrapper {
+  display: flex;
+  padding: 0 10%;
+}
+
+#wrapper>div {
+  width: 50%;
+  margin: 30px;
+}
+
+/* Textos */
+
+h2 {
+  color: var(--textoOscuro);
+  margin: 0;
+  font-size: 30px;
+}
+
+p {
+  margin-top: 0px;
+}
+
+/* Formularios */
+
+label {
+  font-family: "chau philomene one";
+  color: var(--textoOscuro);
+  font-size: 25px;
+}
+
+input {
+  font-family: "hanken grotesk";
+  border-color: var(--textoOscuro);
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+
+fieldset {
+  background-color: #fff6ec;
+  border-color: #856146;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+hr {
+  color: var(--textoOscuro);
+}
+
+#politicas {
+  transform: scale(1.5);
+}
+
+.botonEnviar {
+  background-color: #856146;
+  color: #fff6ec;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 0;
+  width: 200px;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+a{
+  color: #856146;
+  font-weight: bold;
+}

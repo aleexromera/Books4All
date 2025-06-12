@@ -1,0 +1,56 @@
+.slide {
+  display: none
+}
+
+.slide img {
+  width: 100%;
+}
+
+/* Slider */
+.slideshow-container {
+  height: auto;
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  background-color: #f8ecdc;
+}
+
+/* botones anterior y siguiente */
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: #352b1e;
+  opacity: 0.4;
+}
+
+/* posición "siguiente" */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* los puntos de abajo */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #ab8b65;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #52412d;
+}

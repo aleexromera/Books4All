@@ -1,0 +1,73 @@
+#wrapper {
+  padding: 0 10%;
+}
+
+h2 {
+  margin: 0;
+  margin-top: 40px;
+  color: var(--textoOscuro);
+}
+
+hr {
+  background-color: var(--textoOscuro);
+  height: 2px;
+}
+
+.fila {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.libro {
+  background-color: #fff6ec;
+  width: 23%;
+  height: auto;
+  text-align: center;
+  border: 2px solid #856146;
+  border-radius: 10px;
+
+}
+
+.libro img {
+  width: 90%;
+  padding: 13px;
+}
+
+.titulo {
+  color: var(--textoOscuro);
+  margin: 0 13px;
+  font-size: 23px;
+}
+
+.precio {
+  color: #d32f2f;
+  font-weight: bolder;
+  font-family: "open sans";
+  display: inline-block;
+  margin: 10px;
+}
+
+.libro a {
+  background-color: #856146;
+  color: white;
+  border-radius: 5px;
+  font-family: "hanken grotesk";
+  font-weight: bolder;
+  padding: 3px 15px;
+}
+
+.superior{
+  height: 80%
+}
+
+.vertical {
+  display: table;
+  width: 100%;
+  height: 18%;
+}
+
+.horizontal {
+  display: table-cell;
+  vertical-align: bottom;
+}

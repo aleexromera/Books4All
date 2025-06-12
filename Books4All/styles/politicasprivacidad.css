@@ -1,0 +1,33 @@
+#wrapper {
+  padding: 0 10%;
+}
+
+hr {
+  margin-top: -24px;
+  color: var(--textoOscuro);
+}
+
+ol>li {
+  font-weight: bold;
+}
+
+ul {
+  font-weight: normal;
+  list-style-type: disc;
+}
+
+ul>p{
+  margin: 0px;
+  margin-left: -20px;
+}
+
+li{
+  font-weight: 300;
+}
+
+#wrapper a{
+  color: black;
+  text-decoration: none;
+}
+
+

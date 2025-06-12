@@ -1,0 +1,90 @@
+*{
+  --radio: 10px;
+}
+
+#wrapper{
+  padding: 3% 20%;
+}
+
+h2{
+  color: var(--textoOscuro);
+  margin: 0;
+  font-size: 50px;
+}
+
+hr{
+  color: #241b13;
+}
+
+hr+p{
+  margin-bottom: 45px;
+  font-size: 17px;
+}
+
+p{
+  color: #241b13;
+}
+
+
+.compra{
+  background-color: #fff6ec;
+  border: 2px solid #856146;
+  border-radius: var(--radio);
+  margin: 20px;
+}
+
+.compra *{
+  margin: 0;
+}
+
+.compra>div{
+  padding: 15px;
+}
+
+.detalles{
+  display: flex;
+  background-color: #ffebd5;
+  border-top-left-radius: var(--radio);
+  border-top-right-radius: var(--radio);
+}
+
+.detalles>*{
+  margin-right: 45px;
+  font-family: "hanken grotesk";
+}
+
+.horizontal{
+  display: flex;
+}
+
+.producto img{
+  width: 100px;
+  margin: 0 15px;
+}
+
+.producto h3{
+  font-size: 25px;
+  color: var(--textoOscuro);
+  margin-bottom: 10px;
+}
+
+.producto h4{
+  font-family: "Chau Philomene One";
+  font-weight: 300;
+  font-size: 20px;
+  color: var(--textoOscuro);
+}
+
+.boton{
+  background-color: #856146;
+  color: #fff6ec;
+  font-weight: bold;
+  border-radius: 7px;
+  padding: 5px 15px;
+  font-family: "hanken grotesk";
+}
+
+.textoArriba{
+  height: 80%;
+  max-width: 700px;
+}
